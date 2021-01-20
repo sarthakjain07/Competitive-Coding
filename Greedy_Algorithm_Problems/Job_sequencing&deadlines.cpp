@@ -1,6 +1,7 @@
 # include <iostream>
 # include <climits>
 # include <cstring>
+# include <valarray>
 using namespace std;
 
 // int main_max=INT_MAX;
@@ -39,7 +40,7 @@ int main()
     int j=main_size-1;
     // initializing all elements to zero usinf memset function
     memset(Jobs,0,main_size*sizeof(int));
-    int m;
+    int m,sum=0;
     for (int i = 0; i < main_size; i++)
     {
 
@@ -59,6 +60,11 @@ int main()
     }
     for (int i = 0; i < main_size; i++)
         cout<<Jobs[i]<<"\t";
+    cout<<"Maximum profit is"<<endl;
+    for (int i = 0; i < main_size; i++)
+        sum=sum+Jobs[i];
+    cout<<sum<<endl;    
+
     
      
     return 0;
