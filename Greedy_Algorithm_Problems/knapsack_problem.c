@@ -56,7 +56,7 @@ int main()
         knapsack[max_position]=profit[max_position];
     }
     printf("Weight in knapsack is:%d\n",wt);
-    printf("Profits in knapsack according to weight are knapsack \n:");
+    printf("Profits in knapsack according to weight are \n:");
     for (int i = 0; i < objects; i++)
         printf("%d\n",knapsack[i]);
     
