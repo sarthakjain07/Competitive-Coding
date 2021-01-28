@@ -1,6 +1,6 @@
 # include <iostream>
-# include <climits>
-# include <cstring>
+# include <climits> // to use INT_MAX and INT_MIN
+# include <cstring> // used for memset function
 # include <valarray>
 using namespace std;
 
