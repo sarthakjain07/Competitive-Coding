@@ -3,15 +3,6 @@ using namespace std;
 // global variables 
 int row,column;
 
-// void printArray(int a[row][column])
-// {
-//     for (int i = 0; i < row; i++)
-//     {
-//         for (int j = 0; j < column; j++)
-//             cout<<a[i][j];
-//         cout<<endl;          
-//     }
-// }
 
 int main()
 {
